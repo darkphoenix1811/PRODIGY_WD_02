@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+}
+
+.stopwatch {
+    width: 500px;
+    margin: 150px auto;
+    background-color: #270000;
+    padding: 20px;
+    border-radius: 225px;
+    box-shadow: 0px 0px 85px tomato;
+}
+
+.time {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    background-color: rgb(182, 70, 51);
+    color: #ffefdd;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+}
+
+.controls button:hover {
+    background-color: #5b5b5b;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: tomato;
+}
+
+.time {
+    color: tomato;
+}
